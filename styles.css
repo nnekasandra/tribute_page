@@ -1,11 +1,11 @@
 .top-container{
   text-align: center;
-  font-family: Roboto mono;
-  color: #5cbdb9;
+  color: #2a4b6f;
 }
 body {
   background-color: #fbe3e8;
   font-family: serif Sans-Serif helvetica;
+  font-size: 20px;
 }
 #first-paragraph{
   padding: 10px;
@@ -13,24 +13,26 @@ body {
 .img-section{
   text-align: center;
   padding: 10px;
-  border: 2px solid #ebf6f5;
+  border: 2px solid #3B6392;
   border-radius: 10px 15px;
+  background-color: #D3DBE3;
 }
 img{
-  border-radius: 80%;
+  border-radius: 100px;
   max-width: 100px;
-  height: 150px;
+  height: 250px;
+  width: 290px;
 }
 #second-paragraph{
-  border: 2px solid #5cbdb9;
-  border-radius: 10px;
-  color: #66bfbf;
+  border: 2px solid #638CB7;
+  border-radius: 50px;
+  color: #3B6392;
 }
  .heading {
   font-family: 'Noto Sans jp',serif;
   text-align: center;
-  font-size: 15px;
-  color: #66bfbf;
+  font-size: 50px;
+  color: #638CB7;
 }
 .overall-content{
   padding: 20px;
@@ -38,14 +40,19 @@ img{
 }
 
 li{
-  color: #5cbdb9;
+  color: #3B6392;
+  font-size: 30px;
+  font-weight: 30px;
 }
 #lastParagraph{
-  border: 2px solid white;
+  border: 2px solid;
   border-radius: 10px 20px ;
-  background-color: #5cbdb9;
-  color: white;
+  background-color: #1B2636;
+  color: #D3DBE3;
   padding: 10px;
+  margin-left: 0;
+  margin-right: 0;
+  
 }
 
 @media max-width 1200px{
